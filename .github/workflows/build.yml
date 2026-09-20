@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'adopt'
-          java-version: '17'
+          java-version: '26'
           check-latest: true
       - name: cache local maven repository
         uses: actions/cache@v3
